@@ -1,10 +1,5 @@
-# Folders for Dev & 
-dev/
-env/
-
-# cortex
-.cortex/build/
-.cortex/latest-pack
+# Cortex
+build/
 
 # PHP files
 index.php
@@ -14,7 +9,9 @@ index.php
 *.patch
 *.diff
 *.err
-*.orig  # temp file for git conflict merging
+
+# temp file for git conflict merging
+*.orig
 *.log
 *.rej
 *.swo
@@ -43,15 +40,5 @@ thumbs.db
 .svn
 .CVS
 .idea
-node_modules
-build/
-combo/
-reference/
+node_modules/
 jscoverage_lib/
-temp/
-*-notrack/
-
-# Filter old Folders
-unit-test/
-old/
-*-old/
