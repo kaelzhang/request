@@ -7,6 +7,11 @@ src="http://localhost:8765/mod/neuronjs/2.0.1/neuron.js"
 id="neuron-js" 
 data-path="mod" 
 data-server="http://localhost:8765"></script>
+<script src="./tool/blanket.js" data-cover-only="mod/neuro-ajax"></script>
+<script src="./tool/mocha.js"></script>
+<script src="./tool/mocha-blanket.js"></script>
+<script src="./tool/blanket-neuron.js"></script>
+<link rel="stylesheet" href="tool/mocha.css" />
 
 <script>
 NR.Loader.on({
@@ -20,9 +25,7 @@ NR.Loader.on({
 });
 </script>
 
-<link rel="stylesheet" href="tool/mocha.css" />
 <script src="./tool/chai.js"></script>
-<script src="./tool/mocha.js"></script>
 <script src="./tool/sinon-1.7.1.js"></script>
 
 </head>
@@ -38,20 +41,11 @@ var expect = chai.expect;
 
 chai.should();
 // mocha.globals([ 'asd','describe' ])
-mocha.NO_CATCH_EXCEPTIONS = true;
+// mocha.NO_CATCH_EXCEPTIONS = true;
 !window.PHANTOMJS && mocha.setup("bdd");
-mocha.setup({globals: ['XMLHttpRequest']});
+mocha.globals(['XMLHttpRequest',"script*"]);
 </script>
 <script src="./spec/neuro-ajax_test.js"></script>
-
-<script>
-
-window.onload = function() {
-    mocha.run();
-};
-
-</script>
-
 </body>
 
 </html>
