@@ -41,12 +41,14 @@
         "dependencies": {
             "class": "~0.1.0",
             "json": "~0.1.0",
-            "lang": "~0.1.0"
+            "lang": "~0.1.0",
+            "asset": "~0.1.0"
         },
         "exactDependencies": {
             "class": "0.1.0",
             "json": "0.1.0",
-            "lang": "0.1.0"
+            "lang": "0.1.0",
+            "asset": "0.1.0"
         }
     },
     "dependencies": {
