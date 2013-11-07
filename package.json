@@ -1,7 +1,7 @@
 {
     "name": "request",
     "description": "The best project ever.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "homepage": "https://github.com/kaelzhang/neuro-ajax",
     "author": {
         "name": "supersheep",
@@ -26,35 +26,14 @@
     "scripts": {
         "test": "grunt test"
     },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-mocha": "~0.3.1",
-        "grunt-contrib-connect": "~0.3.0",
-        "grunt-contrib-concat": "~0.1.2",
-        "grunt-contrib-uglify": "~0.1.1",
-        "grunt-contrib-jshint": "~0.1.1",
-        "grunt-contrib-watch": "~0.2.0"
-    },
     "keywords": [],
     "main": "lib/index.js",
     "cortex": {
         "dependencies": {
-            "class": "~0.1.0",
-            "json": "~0.1.0",
-            "lang": "~0.1.0",
-            "asset": "~0.1.0"
-        },
-        "exactDependencies": {
-            "class": "0.1.0",
-            "json": "0.1.0",
-            "lang": "0.1.0",
-            "asset": "0.1.0"
+            "class": "~1.0.0",
+            "json": "~1.0.0",
+            "lang": "~1.0.0",
+            "asset": "~1.0.0"
         }
-    },
-    "dependencies": {
-        "asset": "~0.1.0"
-    },
-    "exactDependencies": {
-        "asset": "0.1.0"
     }
 }
