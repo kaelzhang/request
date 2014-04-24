@@ -1,7 +1,7 @@
 {
     "name": "request",
     "description": "The best project ever.",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "homepage": "https://github.com/kaelzhang/neuro-ajax",
     "author": {
         "name": "supersheep",
@@ -30,7 +30,7 @@
     "main": "lib/index.js",
     "cortex": {
         "dependencies": {
-            "class": "~1.0.0",
+            "class": "~2.0.0",
             "json": "~1.0.0",
             "lang": "~1.0.0",
             "asset": "~1.0.0"
