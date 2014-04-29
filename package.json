@@ -1,6 +1,6 @@
 {
     "name": "request",
-    "description": "The best project ever.",
+    "description": "Send ajax or jsonp request to server",
     "version": "0.2.4",
     "homepage": "https://github.com/kaelzhang/neuro-ajax",
     "author": {
@@ -20,13 +20,14 @@
             "url": "https://github.com/kaelzhang/request/blob/master/LICENSE-MIT"
         }
     ],
+    "readmeFilename": "README.md",
     "engines": {
         "node": ">= 0.6.0"
     },
     "scripts": {
         "test": "grunt test"
     },
-    "keywords": [],
+    "keywords": ["ajax", "jsonp", "request", "send"],
     "main": "lib/index.js",
     "cortex": {
         "dependencies": {
